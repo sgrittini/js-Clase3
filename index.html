@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <head>
+        <div class="divCheck">
+            <form class="formularioCheck">
+                <input type="checkbox" id="Alert" name="Alert" value="Alerta">
+                <label for="Alert">Mensajes por Alert</label><br>
+                <input type="checkbox" id="Console" name="Console" value="Consola">
+                <label for="Console">Mensajes por Console</label><br>
+                <input type="checkbox" id="Page" name="Page" value="Pagina" checked="true">
+                <label for="Page">Mensajes en la Pagina</label><br>
+        
+           </form>
+        </div>
+        <div class="contenedorBotones">
+            <button onclick="parImpar()">Par o Impar</button>
+            <button onclick="contadorCaracteres()">Contar caracteres</button>
+        </div>
+        <div class="mensajeDiv" id="mensajeDiv"></div>
+    </head>
+
+<script src="./app.js"></script>
+</body>
+</html>
